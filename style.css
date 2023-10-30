@@ -1,0 +1,62 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{height: 100%;}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background: var(--lightGray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.Card{
+    background:var(--white);
+    padding: 15px;
+    border-radius: 20px;
+    width: 320px;
+    height: 500px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.Card img{
+    border-radius: 10px;
+}
+.cardBody{
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.cardBody h3{
+    color: var(--darkBlue);
+    font-size: 22px;
+    text-align: center;
+}
+.cardBody p{
+    text-align: center;
+    color: var(--grayishBlue);
+}
+/******************** Mobile Priviwe Start  ****************/
+@media screen and (max-wdith: 375px) {
+    /* (Desktop design and Mobile design )==Same   */
+    
+}
